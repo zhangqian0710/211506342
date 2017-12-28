@@ -1,0 +1,51 @@
+﻿生成启动时间为 2017/12/28 20:16:44。
+     1>项目“D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\FishingJoy.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release.win32\FishingJoy.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx\include" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx\platform\win32" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\external" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\CocosDenshion\include" /I"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\extensions" /I..\Classes /I.. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Bullet.cpp
+         Bullet.cpp
+       PreLinkEvent:
+         if not exist "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\" mkdir "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\"
+         xcopy /Y /Q "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\FishingJoy.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib /MANIFEST /ManifestFile:"Release.win32\FishingJoy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\FishingJoy.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\FishingJoy.lib" /MACHINE:X86 Release.win32\AppDelegate.obj
+         Release.win32\BackgroundLayer.obj
+         Release.win32\Bullet.obj
+         Release.win32\Cannon.obj
+         Release.win32\CannonLayer.obj
+         Release.win32\Counter.obj
+         Release.win32\Fish.obj
+         Release.win32\FishingJoyData.obj
+         Release.win32\FishLayer.obj
+         Release.win32\FishNet.obj
+         Release.win32\GameMenuLayer.obj
+         Release.win32\GameScene.obj
+         Release.win32\GoldCounterLayer.obj
+         Release.win32\MenuLayer.obj
+         Release.win32\PanelLayer.obj
+         Release.win32\PersonalAudioEngine.obj
+         Release.win32\ScheduleCountDown.obj
+         Release.win32\TouchLayer.obj
+         Release.win32\Weapon.obj
+         Release.win32\main.obj
+         "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\libcocos2d.lib"
+         "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\libCocosDenshion.lib"
+         "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\libExtensions.lib"
+         "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\libBox2D.lib"
+         "D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\libchipmunk.lib"
+         正在生成代码
+         已完成代码的生成
+         FishingJoy.vcxproj -> D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\FishingJoy.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\Release.win32\FishingJoy.exe;#1" /manifest Release.win32\FishingJoy.exe.intermediate.manifest "d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release.win32\FishingJoy.unsuccessfulbuild”。
+         正在对“Release.win32\FishingJoy.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\FishJoy项目\cocos2d-x-2.2.5\cocos2d-x-2.2.5\projects\1Fishbase\proj.win32\FishingJoy.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.93
